@@ -1,0 +1,11 @@
+.shape_bkgd {
+	height: auto;
+	background-image: url('background/shapeBackground.png');
+	background: cover;
+}
+
+#header1 {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Quicksand';
+}
