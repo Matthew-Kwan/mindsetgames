@@ -6,11 +6,11 @@ body {
 }
 
 
-<<<<<<< HEAD
-/* DESKTOP */
 
-=======
->>>>>>> parent of a04c626... Switched positions of mobile and desktop code
+
+/*MOBILE */
+
+@media only screen and (max-width: 768px) {
 .shape_bkgd {
 
 	background-image: url('background/shapeBackground.png');
@@ -34,6 +34,7 @@ body {
 	font-family: 'Quicksand';
 	color: white;
 	margin-top: 15vh;
+	padding-top: 5vh;
 }
 
 #text1 {
@@ -56,7 +57,7 @@ body {
     font-weight: bold;
     border-radius: 50px;
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -278,6 +279,7 @@ li {
 	padding-left: 5vw;
 	padding-top: 3vh;
 	font-size: 5vw;
+	
 }
 
 
@@ -286,7 +288,8 @@ li {
 	padding-left: 10vw;
 	max-width: 100%;
 	height: auto;
-	margin-top: 3vh;
+	
+	
 }
 
 #logopic2 {
@@ -294,7 +297,8 @@ li {
 	padding-left: 10vw;
 	max-width: 100%;
 	height: auto;
-	margin-top: 3vh;
+	
+	
 }
 
 #logopic3 {
@@ -329,65 +333,25 @@ li {
 	width: 300px;
 	height: auto;
 	max-width: 100%;
-<<<<<<< HEAD
-	margin-left: 30px;
-	padding-top: 30px;
-
-}
-=======
 	padding-top: 10vh;
 	padding-bottom: 10vh;
 }
 
->>>>>>> parent of a04c626... Switched positions of mobile and desktop code
 }
 
 
 
 
-<<<<<<< HEAD
-@media only screen and (max-width: 768px) {
-=======
+/* DESKTOP */
 
+@media only screen and (min-width: 768px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* DESKTOP */)
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 950px) {
-
->>>>>>> parent of a04c626... Switched positions of mobile and desktop code
 .shape_bkgd {
 
 	background-image: url('background/shapeBackground.png');
 	background: cover;
 	background-size: contain;
 }
-
-
-
 
 #logo {
 	display: block;
@@ -628,12 +592,6 @@ li {
 	font-weight: bold;
 	color: #ef532e;
 	padding-left: 5vw;
-<<<<<<< HEAD
-	padding-top: 3vh;
-	font-size: 5vw;
-	margin-bottom: -10vh
-=======
->>>>>>> parent of a04c626... Switched positions of mobile and desktop code
 }
 
 #logo-row {
@@ -646,22 +604,12 @@ li {
 	padding-top: 1.75vh;
 	max-width: 100%;
 	height: auto;
-<<<<<<< HEAD
-	margin-bottom: -10vh
-	
-=======
->>>>>>> parent of a04c626... Switched positions of mobile and desktop code
 }
 
 #logopic2 {
 	width: 15vw;
 	max-width: 100%;
 	height: auto;
-<<<<<<< HEAD
-	margin-bottom: -10vh
-	
-=======
->>>>>>> parent of a04c626... Switched positions of mobile and desktop code
 }
 
 #logopic3 {
@@ -688,7 +636,19 @@ li {
 	padding-left: 3vw;
 }
 
+#logo1 {
+	display: block;
+	width: 300px;
+	height: auto;
+	max-width: 100%;
+	margin-left: 30px;
+	padding-top: 30px;
+
 }
+}
+
+
+
 
 
 
