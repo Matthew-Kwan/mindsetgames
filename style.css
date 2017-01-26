@@ -13,16 +13,6 @@ body {
 /* DESKTOP */)
 
 
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 950px) {
 
 .shape_bkgd {
@@ -322,9 +312,17 @@ li {
 
 
 
+
+
+
+
+
+
+
+
 /*MOBILE */
 
-
+@media only screen and (max-width: 949px) {
 .shape_bkgd {
 
 	background-image: url('background/shapeBackground.png');
