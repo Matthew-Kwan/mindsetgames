@@ -301,14 +301,22 @@ li {
 	padding-left: 3vw;
 }
 
+#logo1 {
+	display: block;
+	width: 300px;
+	height: auto;
+	max-width: 100%;
+	margin-left: 30px;
+	padding-top: 30px;
 
+}
 
 
 
 
 /*MOBILE */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
 .shape_bkgd {
 
 	background-image: url('background/shapeBackground.png');
