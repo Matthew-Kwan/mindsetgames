@@ -236,7 +236,6 @@ li {
 	font-weight: bold;
 	font-size: 2.25vw;
 	color: white;
-	margin-top: 13vh;
 	padding-left: 5vw;
 	padding-right: 5vw;
 }
@@ -259,10 +258,7 @@ li {
 	padding-left: 5vw;
 }
 
-#logo-row {
-	margin-top: 10vh; 
-	margin-bottom: 10vh;
-}
+
 
 #logopic1 {
 	width: 15vw;
