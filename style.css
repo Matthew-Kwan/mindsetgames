@@ -13,9 +13,6 @@ body {
 	background-size: contain;
 }
 
-
-
-
 #logo {
 	display: block;
 	width: 300px;
@@ -273,47 +270,64 @@ li {
 	font-family: 'Quicksand';
 	font-weight: bold;
 	color: #ef532e;
-	padding-left: 10vw;
+	padding-left: 5vw;
+	padding-top: 3vh;
+	font-size: 5vw;
 }
 
 
 #logopic1 {
-	width: 15vw;
-	padding-top: 1.75vh;
+	width: 60vw;
+	padding-left: 10vw;
 	max-width: 100%;
 	height: auto;
+	margin-top: 3vh;
 }
 
 #logopic2 {
-	width: 15vw;
+	width: 60vw;
+	padding-left: 10vw;
 	max-width: 100%;
 	height: auto;
+	margin-top: 3vh;
 }
 
 #logopic3 {
-	width: 15vw;
+	width: 60vw;
+	padding-left: 10vw;
 	max-width: 100%;
-	padding-top: 3.5vh;
 	height: auto;
+	margin-top: 3vh;
+	margin-bottom: 5vh;
 }
+
 
 #contact {
 	font-family: "Quicksand";
 	font-weight: bolder;
 	color: white;
-	font-size: 1.25vw;
-	margin-top: vw;
+	font-size: 4vw;
+	margin-top: 7vh;
 	padding-left: 3vw;
 }
 
 #copyright {
 	font-family: "Quicksand";
 	color: white;
-	font-size: 1.25vw;
+	font-size: 2.5vw;
 	margin-bottom: 3vw;
 	padding-left: 3vw;
 }
 
+#logo1 {
+	display: block;
+	width: 300px;
+	height: auto;
+	max-width: 100%;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+
 }
 
 
@@ -333,6 +347,8 @@ li {
 
 
 
+
+/* DESKTOP */)
 
 
 
@@ -591,12 +607,11 @@ li {
 }
 
 
-
 #partner {
 	font-family: 'Quicksand';
 	font-weight: bold;
 	color: #ef532e;
-	padding-left: 10vw;
+	padding-left: 5vw;
 }
 
 #logo-row {
