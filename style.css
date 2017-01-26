@@ -5,10 +5,13 @@ body {
  margin-left: 0px
 }
 
+@media only screen and (min-width: 1000px) {
+
 .shape_bkgd {
 
 	background-image: url('background/shapeBackground.png');
 	background: cover;
+	background-size: contain;
 }
 
 
@@ -18,7 +21,7 @@ body {
 	display: block;
 	width: 300px;
 	height: auto;
-
+	max-width: 100%;
 	margin-left: 30px;
 	padding-top: 30px;
 
@@ -128,6 +131,8 @@ body {
 	display: block;
 	width: 35vw;
 	align-content: center;
+	max-width: 100%;
+	height: auto;
 }
 
 #head3 {
@@ -160,6 +165,8 @@ body {
 	display: block;
 	width: 35vw;
 	align-content: center;
+	max-width: 100%;
+	height: auto;
 }
 
 ul {
@@ -168,7 +175,7 @@ ul {
 
 li {
 	font-family: "Quicksand";
-	font-weight: lighter;
+	
 	font-size: 1.5vw;
 	color: white;
 	margin-left: 1.5vw;
@@ -192,7 +199,6 @@ li {
 
 #text4 {
 	font-family: 'Quicksand';
-	font-weight: lighter;
 	font-size: 1.5vw;
 	margin-top: 2vh;
 	padding-left: 5vw;
@@ -203,6 +209,8 @@ li {
 .list_images {
 	display: inline;
 	width: 3vw;
+	max-width: 100%;
+	height: auto;
 }
 
 #quote1 {
@@ -259,15 +267,21 @@ li {
 #logopic1 {
 	width: 15vw;
 	padding-top: 1.75vh;
+	max-width: 100%;
+	height: auto;
 }
 
 #logopic2 {
 	width: 15vw;
+	max-width: 100%;
+	height: auto;
 }
 
 #logopic3 {
 	width: 15vw;
+	max-width: 100%;
 	padding-top: 3.5vh;
+	height: auto;
 }
 
 #contact {
@@ -285,4 +299,336 @@ li {
 	font-size: 1.25vw;
 	margin-bottom: 3vw;
 	padding-left: 3vw;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Version */
+
+@media only screen and (max-width: 999px) {
+
+
+
+
+
+.shape_bkgd {
+
+	background-image: url('background/shapeBackground.png');
+	background: cover;
+	background-size: contain;
+}
+
+
+
+
+#logo {
+	display: block;
+	width: 300px;
+	height: auto;
+	max-width: 100%;
+	margin-left: 30px;
+	padding-top: 30px;
+
+}
+
+#header1 {
+	font-size: 10vw;
+	font-weight: bold;
+	font-family: 'Quicksand';
+	color: white;
+	margin-top: 15vh;
+}
+
+#text1 {
+	font-size: 3vh;
+	font-family: 'Quicksand';
+	color:white;
+	margin-top: 30px;
+}
+
+#button1 {
+    background-color: transparent; /* Green */
+    border: 2px solid #84cfc9;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#button2 {
+    background-color: transparent; /* Green */
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 3vh;
+    margin-bottom: 15vh;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.orange-bkgd {
+	background-color: #ef532e;
+	background: cover;
+}
+
+.yellow-bkgd {
+	background-color: #f8cf1c;
+	background: cover;
+}
+
+.blue-bkgd {
+	background-color: #42e5f4;
+	background: cover; 
+}
+
+.grey-bkgd {
+	background-color: #414042;
+	background: cover;
+}
+
+#head2 {
+	font-family: 'Quicksand';
+	font-weight: bold;
+	font-size: 6vw;
+	color: #ef532e;
+	margin-top: 3vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+#text2 {
+	font-family: 'Quicksand';
+	font-weight: lighter;
+	font-size: 5vw;
+	margin-top: 5vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+#seniors {
+	display: block;
+	width: 35vw;
+	align-content: center;
+	max-width: 100%;
+	height: auto;
+}
+
+#hide1 {
+	visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
+
+#head3 {
+	font-family: 'Quicksand';
+	font-weight: bold;
+	font-size: 6vw;
+	color: #ef532e;
+	margin-top: 3vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+#text3 {
+	font-family: 'Quicksand';
+	font-weight: lighter;
+	font-size: 5vw;
+	margin-top: 5vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+#link1 {
+	font-family: 'Quicksand';
+	color: #414042;
+	font-size: 5vw;
+	font-weight: bold;
+}
+
+#fourSkills {
+	display: block;
+	width: 35vw;
+	align-content: center;
+	max-width: 100%;
+	height: auto;
+}
+
+#hide2 {
+	visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	font-family: "Quicksand";
+	
+	font-size: 5vw;
+	color: white;
+	
+	margin-top: 1vw;
+
+}
+
+#bottom_li {
+	margin-bottom: 3vh;
+}
+
+#head4 {
+	font-family: 'Quicksand';
+	font-weight: bold;
+	font-size: 7vw;
+	color: white;
+	margin-top: 5vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+#text4 {
+	font-family: 'Quicksand';
+	font-size: 4vw;
+	margin-top: 1vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	color: white;
+}
+
+.list_images {
+	display: inline;
+	width: 10vw;
+	max-width: 100%;
+	height: auto;
+}
+
+#quote1 {
+	font-family: 'Quicksand';
+	font-weight: bold;
+	font-size: 7vw;
+	color: #1e3e5b;
+	padding-left: 2vw;
+	margin-top: 6vh;
+}
+
+#quote2 {
+	font-family: 'Quicksand';
+	font-weight: bold;
+	font-size: 3vw;
+	color: #1e3e5b;
+	padding-left: 2vw;
+}
+
+#head5 {
+	font-family: 'Quicksand';
+	font-weight: bold;
+	font-size: 7vw;
+	color: white;
+	padding-top: 5vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+#text5 {
+	font-family: 'Quicksand';
+	font-weight: lighter;
+	font-size: 5vw;
+	margin-top: 2vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	color: white;
+}
+
+
+
+#partner {
+	font-family: 'Quicksand';
+	font-weight: bold;
+	color: #ef532e;
+	padding-left: 10vw;
+}
+
+
+#logopic1 {
+	width: 15vw;
+	padding-top: 1.75vh;
+	max-width: 100%;
+	height: auto;
+}
+
+#logopic2 {
+	width: 15vw;
+	max-width: 100%;
+	height: auto;
+}
+
+#logopic3 {
+	width: 15vw;
+	max-width: 100%;
+	padding-top: 3.5vh;
+	height: auto;
+}
+
+#contact {
+	font-family: "Quicksand";
+	font-weight: bolder;
+	color: white;
+	font-size: 1.25vw;
+	margin-top: vw;
+	padding-left: 3vw;
+}
+
+#copyright {
+	font-family: "Quicksand";
+	color: white;
+	font-size: 1.25vw;
+	margin-bottom: 3vw;
+	padding-left: 3vw;
+}
+
 }
