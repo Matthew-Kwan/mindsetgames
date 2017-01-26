@@ -15,9 +15,6 @@ body {
 	background-size: contain;
 }
 
-
-
-
 #logo {
 	display: block;
 	width: 300px;
@@ -310,7 +307,7 @@ li {
 	padding-top: 30px;
 
 }
-
+}
 
 
 
@@ -584,6 +581,7 @@ li {
 	padding-left: 5vw;
 	padding-top: 3vh;
 	font-size: 5vw;
+	margin-bottom: -10vh
 }
 
 
@@ -592,7 +590,8 @@ li {
 	padding-left: 10vw;
 	max-width: 100%;
 	height: auto;
-	margin-top: 3vh;
+	margin-bottom: -10vh
+	
 }
 
 #logopic2 {
@@ -600,7 +599,8 @@ li {
 	padding-left: 10vw;
 	max-width: 100%;
 	height: auto;
-	margin-top: 3vh;
+	margin-bottom: -10vh
+	
 }
 
 #logopic3 {
