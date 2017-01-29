@@ -11,7 +11,7 @@ body {
 /*MOBILE */
 
 @media only screen and (max-width: 500px) {
-.shape_bkgd {
+#shape_bkgd {
 	background-image: url('background/shapeBackground.png');
 	
 }
