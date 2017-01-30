@@ -13,7 +13,8 @@ body {
 @media only screen and (max-width: 500px) {
 
 .shape_bkgd {
-	background-image: url('image/shapeBackground.png');
+	background-image: url('image/shapeBackground1.png');
+	background:contain;
 }
 
 #logo {
