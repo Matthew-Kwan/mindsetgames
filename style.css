@@ -14,7 +14,7 @@ body {
 
 .shape_bkgd {
 	background-image: url('image/shapeBackground1.png');
-	background:contain;
+
 }
 
 #logo {
