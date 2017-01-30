@@ -17,6 +17,16 @@ body {
 	background-size: cover;
 }	
 
+.shape_bkgd {
+	background: url('../image/shape.jpg');	
+	background-size: cover;
+}	
+
+.shape_bkgd {
+	background: url('./image/shape.jpg');	
+	background-size: cover;
+}	
+
 #logo {
 	display: block;
 	position: relative;
