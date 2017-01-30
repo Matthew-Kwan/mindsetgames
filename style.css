@@ -13,15 +13,8 @@ body {
 @media only screen and (max-width: 500px) {
 
 .shape_bkgd {
-	background: url('image/shape.jpg');
-	-webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover;
+	background: url('image/shape.jpg');	
+	background-size: cover;
 }	
 
 #logo {
@@ -354,7 +347,7 @@ li {
 .shape_bkgd {
 
 	background-image: url('background/shapeBackground.png');
-	background: cover;
+	background-size: cover;
 	background-size: contain;
 }
 
@@ -665,6 +658,7 @@ li {
 
 	background-image: url('background/shapeBackground.png');
 	background-size: contain;
+	background-size: cover;
 }
 
 #logo {
