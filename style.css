@@ -513,8 +513,7 @@ li {
 
 #fourSkills {
 	display: block;
-	width: 35vw;
-	align-content: center;
+	width: 45vw;
 	max-width: 100%;
 	height: auto;
 }
@@ -663,6 +662,21 @@ li {
 	display:block;
 	max-width: 100%;
 	height:auto;
+}
+
+.row1 {
+  overflow: hidden;
+}
+
+.col1 {
+  padding-top: 3vh;
+  padding-bottom: 99999px;
+  margin-bottom: -99999px;
+}
+
+.row2 {
+  margin-bottom: 10vh;
+  margin-top:5vh;
 }
 
 }
