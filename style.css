@@ -5,27 +5,30 @@ body {
  margin-left: 0px
 }
 
-
-
+.green_bkgd {
+  background-color: #84cfc9;
+  background: cover;
+  height:100%;
+}
 
 /*MOBILE */
 
 @media only screen and (max-width: 500px) {
 
 .shape_bkgd {
-	background: url('image/shapeBackground.png');	
+	background: url('image/shapeBackground.png');
 	background-size: cover;
-}	
+}
 
 .shape_bkgd {
-	background: url('../image/shapeBackground.png');	
+	background: url('../image/shapeBackground.png');
 	background-size: cover;
-}	
+}
 
 .shape_bkgd {
-	background: url('./image/shapeBackground.png');	
+	background: url('./image/shapeBackground.png');
 	background-size: cover;
-}	
+}
 
 #logo {
 	display: block;
@@ -39,7 +42,7 @@ body {
 	font-weight: bold;
 	font-family: 'Quicksand';
 	color: white;
-	
+
 }
 
 #text1 {
@@ -107,7 +110,7 @@ body {
 
 .blue-bkgd {
 	background-color: #84cfc9;
-	background: cover; 
+	background: cover;
 }
 
 .grey-bkgd {
@@ -119,7 +122,7 @@ body {
 	font-family: 'Quicksand';
 	font-weight: bold;
 	font-size: 6vw;
-	color: #ef532e;
+	color: white;
 	margin-top: 3vh;
 	padding-left: 5vw;
 	padding-right: 5vw;
@@ -127,6 +130,7 @@ body {
 
 #text2 {
 	font-family: 'Quicksand';
+  color: white;
 	font-weight: lighter;
 	font-size: 5vw;
 	margin-top: 5vh;
@@ -202,7 +206,7 @@ ul {
 
 li {
 	font-family: "Quicksand";
-	
+
 	font-size: 5vw;
 	color: white;
 	margin-top: 1vw;
@@ -287,7 +291,7 @@ li {
 	padding-left: 5vw;
 	padding-top: 3vh;
 	font-size: 5vw;
-	
+
 }
 
 
@@ -296,8 +300,8 @@ li {
 	padding-left: 10vw;
 	max-width: 100%;
 	height: auto;
-	
-	
+
+
 }
 
 #logopic2 {
@@ -305,8 +309,8 @@ li {
 	padding-left: 10vw;
 	max-width: 100%;
 	height: auto;
-	
-	
+
+
 }
 
 #logopic3 {
@@ -444,7 +448,7 @@ li {
 
 .blue-bkgd {
 	background-color: #84cfc9;
-	background: cover; 
+	background: cover;
 }
 
 .grey-bkgd {
@@ -456,8 +460,8 @@ li {
 	font-family: 'Quicksand';
 	font-weight: bold;
 	font-size: 2.25vw;
-	color: #ef532e;
-	margin-top: 15vh;
+	color: white;
+	margin-top: 12vh;
 	padding-left: 5vw;
 	padding-right: 5vw;
 }
@@ -465,6 +469,7 @@ li {
 #text2 {
 	font-family: 'Quicksand';
 	font-weight: lighter;
+  color:white;
 	font-size: 1.5vw;
 	margin-top: 5vh;
 	padding-left: 5vw;
@@ -603,7 +608,7 @@ li {
 }
 
 #logo-row {
-	margin-top: 10vh; 
+	margin-top: 10vh;
 	margin-bottom: 10vh;
 }
 
@@ -653,6 +658,13 @@ li {
 	padding-top: 30px;
 
 }
+
+#photogrid {
+	display:block;
+	max-width: 100%;
+	height:auto;
+}
+
 }
 
 
@@ -755,7 +767,7 @@ li {
 
 .blue-bkgd {
 	background-color: #84cfc9;
-	background: cover; 
+	background: cover;
 }
 
 .grey-bkgd {
@@ -767,7 +779,7 @@ li {
 	font-family: 'Quicksand';
 	font-weight: bold;
 	font-size: 6vw;
-	color: #ef532e;
+	color: white;
 	margin-top: 9vh;
 	padding-left: 5vw;
 	padding-right: 5vw;
@@ -776,6 +788,7 @@ li {
 #text2 {
 	font-family: 'Quicksand';
 	font-weight: lighter;
+  color: white;
 	font-size: 5vw;
 	margin-top: 5vh;
 	padding-left: 5vw;
@@ -934,7 +947,7 @@ li {
 	padding-left: 5vw;
 	padding-top: 3vh;
 	font-size: 5vw;
-	
+
 }
 
 
@@ -944,8 +957,8 @@ li {
 	max-width: 100%;
 	height: auto;
 	margin-top: 10vh;
-	
-	
+
+
 }
 
 #logopic2 {
@@ -954,8 +967,8 @@ li {
 	max-width: 100%;
 	height: auto;
 	margin-top: 10vh;
-	
-	
+
+
 }
 
 #logopic3 {
@@ -995,22 +1008,3 @@ li {
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
