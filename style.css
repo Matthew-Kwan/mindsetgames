@@ -16,6 +16,11 @@ body {
   background-size: cover;
 }
 
+.blue-bkgd {
+	background-color: #1e3e5b;
+	background: cover;
+}
+
 /*MOBILE */
 
 @media only screen and (max-width: 500px) {
